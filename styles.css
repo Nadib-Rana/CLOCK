@@ -1,0 +1,74 @@
+*{ 
+    color: white;
+    font-size: 25px;align-items:center;
+    text-align: center;
+    display: block;
+}
+
+.conteinar{  
+    margin: 20%;
+    position: relative;
+    width: 100vh;
+    height:100vh;
+   align-items: center; Wix.com
+   display: flex;
+   justify-content: center;
+}
+.content{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+   background-color: rgb(90, 150, 130);
+   align-items: center;
+   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+   align-items: center;
+   border: 5px solid rgb(90, 106, 91);
+   box-shadow: rgb(118, 50, 50);
+   box-shadow: 0px 2.0px 1px ,0px rgba(0, 0, 0, 0.9);
+
+  
+}
+
+
+.content spam {
+    position: absolute;
+    transform: rotate(calc(30deg*var(--i)));
+    inset: 10px;
+}
+
+.content spam b{
+
+    position: absolute;
+    transform: rotate(calc(-30deg*var(--i)));
+    display: inline-block;
+}
+
+.content::before{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(10, 9, 9);
+   
+}
+
+.hand{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hand i{
+    content: '';
+    position: absolute;
+    width: var(--w);
+    height:var(--h);
+    border-radius: 10px;
+    background-color: var(--clr);
+}
+
+
